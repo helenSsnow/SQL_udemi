@@ -40,7 +40,7 @@ ORDER BY email;
 
 SELECT *
 FROM employees
-WHERE first_name LIKE 'n%n' or  first_name LIKE 'n%n%' or  first_name LIKE '%n%n';
+WHERE first_name LIKE '%n%n%';
 
 8. Получить список всех сотрудников, у которых длина имени больше 4 букв. Отсортируйте строки по номеру департамента (убывающий порядок) так,
    чтобы значения “null” были в самом конце.
